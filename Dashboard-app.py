@@ -13,3 +13,5 @@ Welkom!\n
 Bij ons Dashboard over onze eindpresenatie als alles lukt in ieder geval....
 \n
 """)
+st.sidebar.title("Luchthaven")
+language = st.sidebar.radio(label="", options=["Schiphol", "Maastricht"])
